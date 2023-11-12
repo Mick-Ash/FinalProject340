@@ -363,6 +363,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VictoriaPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 1716876681483048679, guid: 81bb8ef4e22f8204b96f6c49b4e8e18b, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 1833560917576960120, guid: 81bb8ef4e22f8204b96f6c49b4e8e18b, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -2501,6 +2505,11 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &503937864 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1716876681483048679, guid: 81bb8ef4e22f8204b96f6c49b4e8e18b, type: 3}
+  m_PrefabInstance: {fileID: 218554473}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &799836683
 GameObject:
   m_ObjectHideFlags: 0
@@ -4245,6 +4254,7 @@ GameObject:
   - component: {fileID: 2096178397}
   - component: {fileID: 2096178396}
   - component: {fileID: 2096178398}
+  - component: {fileID: 2096178399}
   m_Layer: 0
   m_Name: OutsideHouseDoor
   m_TagString: Untagged
@@ -4458,6 +4468,20 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
+--- !u!114 &2096178399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096178394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb811e5f2b4e1194bae3eb502c08be47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 503937864}
+  changeSceneKey: 13
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
