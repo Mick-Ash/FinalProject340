@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     Rigidbody2D body;
+    public Animator animator;
 
     float horizontal;
     float vertical;
@@ -22,6 +23,8 @@ public class PlayerMovement : MonoBehaviour
         // Gives a value between -1 and 1
         horizontal = Input.GetAxisRaw("Horizontal"); // -1 is left
         vertical = Input.GetAxisRaw("Vertical"); // -1 is down
+       // animator.SetFloat("Horizontal", horizontal);
+       // animator.SetFloat("Vertical", vertical);
     }
 
     void FixedUpdate()
