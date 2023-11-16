@@ -896,6 +896,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Victoria
       objectReference: {fileID: 0}
+    - target: {fileID: 1716876681483048679, guid: 81bb8ef4e22f8204b96f6c49b4e8e18b, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 1833560917576960120, guid: 81bb8ef4e22f8204b96f6c49b4e8e18b, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -949,8 +953,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6664922672563296824, guid: 81bb8ef4e22f8204b96f6c49b4e8e18b, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 641383767}
+    - target: {fileID: 6664922672563296824, guid: 81bb8ef4e22f8204b96f6c49b4e8e18b, type: 3}
       propertyPath: moveSpeed
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

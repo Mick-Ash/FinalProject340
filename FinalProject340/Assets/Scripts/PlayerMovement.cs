@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
 
     Vector2 movement;
 
-    Animator animator;
+   public Animator animator;
 
 
     void Update()
