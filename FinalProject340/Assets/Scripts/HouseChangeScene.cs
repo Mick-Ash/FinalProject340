@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class HouseChangeScene : MonoBehaviour
 {
+    
     public GameObject player;
     public KeyCode changeSceneKey;
     bool collide;
@@ -24,7 +25,10 @@ public class HouseChangeScene : MonoBehaviour
     {
         if (collide = true && Input.GetKeyDown(changeSceneKey))
         {
+            
             SceneManager.LoadScene(2);
+            player = GameObject.FindGameObjectWithTag("Player");
+            DontDestroyOnLoad(player);
         }
     }
 }

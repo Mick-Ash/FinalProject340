@@ -573,3 +573,28 @@ MonoBehaviour:
     indexItemInList: 999
     rarity: 0
     itemAttributes: []
+  - itemName: Vinyans
+    itemID: 36
+    itemDesc: Vinyans I recieved for my birthday, more than enough to pay for the
+      coat.
+    itemIcon: {fileID: 21300000, guid: 8ef8e5012bb098f49b9d1ca109cceaaa, type: 3}
+    itemModel: {fileID: 100000, guid: 40da790cc27843b45b9c255c8d996b43, type: 3}
+    itemValue: 1
+    itemType: 2
+    itemWeight: 0
+    maxStack: 999
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: New Item
+    itemID: 37
+    itemDesc: 
+    itemIcon: {fileID: 0}
+    itemModel: {fileID: 0}
+    itemValue: 1
+    itemType: 0
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
