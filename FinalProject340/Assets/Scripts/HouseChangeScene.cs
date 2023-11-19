@@ -12,7 +12,10 @@ public class HouseChangeScene : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        collide = true;
+        if (other.CompareTag("HouseDoor"))
+        {
+            collide = true;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D other)
@@ -25,10 +28,12 @@ public class HouseChangeScene : MonoBehaviour
     {
         if (collide = true && Input.GetKeyDown(changeSceneKey))
         {
-            
-            SceneManager.LoadScene(2);
-            player = GameObject.FindGameObjectWithTag("Player");
-            DontDestroyOnLoad(player);
+            if (GameManager.Instance.hasCoat = true)
+            {
+                player = GameObject.FindGameObjectWithTag("Player");
+                SceneManager.LoadScene(2);
+                DontDestroyOnLoad(player);
+            }
         }
     }
 }

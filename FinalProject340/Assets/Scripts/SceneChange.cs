@@ -11,7 +11,10 @@ public class SceneChange : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        collide = true;
+        if (other.CompareTag("StoreDoor"))
+        {
+            collide = true;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D other)
@@ -23,8 +26,8 @@ public class SceneChange : MonoBehaviour
     {
         if (collide = true && Input.GetKeyDown(changeSceneKey))
         {
-            SceneManager.LoadScene(3);
             player = GameObject.FindGameObjectWithTag("Player");
+            SceneManager.LoadScene(3);
             DontDestroyOnLoad(player);
         }
     }
