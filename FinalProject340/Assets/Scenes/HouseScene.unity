@@ -5471,7 +5471,7 @@ MonoBehaviour:
     Why?'
   - 'Victoria: I find that I prefer men''s clothes. I also...'
   - 'James: Victoria, you seem worried. What is it that you want to say to me?'
-  textSpeed: 0.1
+  textSpeed: 0.3
 --- !u!114 &442001187
 MonoBehaviour:
   m_ObjectHideFlags: 0

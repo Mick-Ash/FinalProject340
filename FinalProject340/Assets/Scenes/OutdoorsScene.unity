@@ -3796,7 +3796,6 @@ GameObject:
   - component: {fileID: 637968657}
   - component: {fileID: 637968656}
   - component: {fileID: 637968655}
-  - component: {fileID: 637968654}
   m_Layer: 0
   m_Name: OutsideShopDoor
   m_TagString: StoreDoor
@@ -3819,20 +3818,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 799836685}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &637968654
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 637968652}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb811e5f2b4e1194bae3eb502c08be47, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 641383761}
-  changeSceneKey: 13
 --- !u!19719996 &637968655
 TilemapCollider2D:
   m_ObjectHideFlags: 0
@@ -5040,6 +5025,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1192518252}
   m_CullTransparentMesh: 1
+--- !u!1 &1192578437
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1192578440}
+  - component: {fileID: 1192578439}
+  - component: {fileID: 1192578438}
+  m_Layer: 0
+  m_Name: SceneChanging
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1192578438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192578437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94bd43d52c9fadd4193440e7e842130b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1716876681483048679, guid: 81bb8ef4e22f8204b96f6c49b4e8e18b, type: 3}
+  changeSceneKey: 13
+--- !u!114 &1192578439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192578437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb811e5f2b4e1194bae3eb502c08be47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1716876681483048679, guid: 81bb8ef4e22f8204b96f6c49b4e8e18b, type: 3}
+  changeSceneKey: 13
+--- !u!4 &1192578440
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192578437}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.47974288, y: 0.590021, z: 0.84089786}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1235549452
 GameObject:
   m_ObjectHideFlags: 0
@@ -6915,6 +6961,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1562879285}
   m_CullTransparentMesh: 1
+--- !u!1 &1585136222
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1585136224}
+  - component: {fileID: 1585136223}
+  m_Layer: 0
+  m_Name: GameManagerScene1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1585136223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585136222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e797c251547fb4aa63ba7ea97d9cee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1585136224
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585136222}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.47974288, y: 0.590021, z: 0.84089786}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1615242695
 GameObject:
   m_ObjectHideFlags: 0
@@ -7795,7 +7885,6 @@ GameObject:
   - component: {fileID: 2096178397}
   - component: {fileID: 2096178396}
   - component: {fileID: 2096178398}
-  - component: {fileID: 2096178399}
   m_Layer: 0
   m_Name: OutsideHouseDoor
   m_TagString: HouseDoor
@@ -7989,20 +8078,6 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
---- !u!114 &2096178399
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2096178394}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94bd43d52c9fadd4193440e7e842130b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 641383761}
-  changeSceneKey: 13
 --- !u!1 &2109548409
 GameObject:
   m_ObjectHideFlags: 0
@@ -8088,3 +8163,5 @@ SceneRoots:
   - {fileID: 1235549453}
   - {fileID: 436189076}
   - {fileID: 145796766}
+  - {fileID: 1192578440}
+  - {fileID: 1585136224}

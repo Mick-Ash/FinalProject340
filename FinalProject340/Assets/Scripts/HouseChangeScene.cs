@@ -28,7 +28,7 @@ public class HouseChangeScene : MonoBehaviour
     {
         if (collide = true && Input.GetKeyDown(changeSceneKey))
         {
-            if (GameManager.Instance.hasCoat = true)
+            if (GameManager.Instance.hasCoat == true)
             {
                 player = GameObject.FindGameObjectWithTag("Player");
                 SceneManager.LoadScene(2);

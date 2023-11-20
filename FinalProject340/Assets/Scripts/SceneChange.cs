@@ -26,9 +26,12 @@ public class SceneChange : MonoBehaviour
     {
         if (collide = true && Input.GetKeyDown(changeSceneKey))
         {
-            player = GameObject.FindGameObjectWithTag("Player");
-            SceneManager.LoadScene(3);
-            DontDestroyOnLoad(player);
+            if (GameManager.Instance.hasCoat == false)
+            {
+                player = GameObject.FindGameObjectWithTag("Player");
+                SceneManager.LoadScene(3);
+                DontDestroyOnLoad(player);
+            }
         }
     }
 }
