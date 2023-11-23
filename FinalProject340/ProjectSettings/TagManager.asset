@@ -17,6 +17,7 @@ TagManager:
   - MainInventory
   - StoreDoor
   - HouseDoor
+  - StoreExit
   layers:
   - Default
   - TransparentFX

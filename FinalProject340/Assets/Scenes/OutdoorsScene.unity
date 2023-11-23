@@ -521,7 +521,7 @@ GameObject:
   m_Component:
   - component: {fileID: 145796766}
   m_Layer: 0
-  m_Name: Dialogue
+  m_Name: Controls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5438,6 +5438,7 @@ GameObject:
   - component: {fileID: 1470911090}
   - component: {fileID: 1470911089}
   - component: {fileID: 1470911088}
+  - component: {fileID: 1470911091}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -5528,6 +5529,22 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 5
   m_TargetDisplay: 0
+--- !u!114 &1470911091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470911086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f18022c04eb2eee4bb5457253cafe60d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 1868084640}
+  lines:
+  - 'Controls: WSAD/Arrows to move, Return/Enter to interact'
+  textSpeed: 0.2
 --- !u!1 &1474718886
 GameObject:
   m_ObjectHideFlags: 0
@@ -7748,15 +7765,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0

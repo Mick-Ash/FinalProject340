@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using TMPro;
+using UnityEngine;
 
-public class JamesDialogueScript : MonoBehaviour
+public class GameControlsScript : MonoBehaviour
 {
     public TextMeshProUGUI textComponent;
     public string[] lines;
@@ -20,7 +20,7 @@ public class JamesDialogueScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Return))
+        if (Input.GetKeyDown(KeyCode.Return))
         {
             if (textComponent.text == lines[index])
             {
