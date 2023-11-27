@@ -5057,6 +5057,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1716876681483048679, guid: 81bb8ef4e22f8204b96f6c49b4e8e18b, type: 3}
   changeSceneKey: 13
+  houseDoor: {fileID: 0}
 --- !u!114 &1192578439
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5071,6 +5072,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1716876681483048679, guid: 81bb8ef4e22f8204b96f6c49b4e8e18b, type: 3}
   changeSceneKey: 13
+  storeDoor: {fileID: 0}
 --- !u!4 &1192578440
 Transform:
   m_ObjectHideFlags: 0
@@ -5543,7 +5545,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1868084640}
   lines:
-  - 'Controls: WSAD/Arrows to move, Return/Enter to interact'
+  - 'Controls: WSAD/Arrows to move, Return/Enter to interact, "I" for inventory'
   textSpeed: 0.2
 --- !u!1 &1474718886
 GameObject:

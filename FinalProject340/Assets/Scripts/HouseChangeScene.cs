@@ -9,13 +9,13 @@ public class HouseChangeScene : MonoBehaviour
     public GameObject player;
     public KeyCode changeSceneKey;
     bool collide;
+    public GameObject houseDoor;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("HouseDoor"))
-        {
+        
             collide = true;
-        }
+        
     }
 
     private void OnTriggerExit2D(Collider2D other)
