@@ -9,7 +9,7 @@ public class HouseChangeScene : MonoBehaviour
     public GameObject player;
     public KeyCode changeSceneKey;
     bool collide;
-    public GameObject houseDoor;
+    
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -26,13 +26,12 @@ public class HouseChangeScene : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (collide = true && Input.GetKeyDown(changeSceneKey))
+        if (collide == true && Input.GetKeyDown(changeSceneKey))
         {
             if (GameManager.Instance.hasCoat == true)
             {
                 player = GameObject.FindGameObjectWithTag("Player");
                 SceneManager.LoadScene(2);
-                DontDestroyOnLoad(player);
             }
         }
     }

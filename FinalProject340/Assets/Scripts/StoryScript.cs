@@ -5,8 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class StoryScript : MonoBehaviour
 {
+    GameObject player;
     public void onStartGame()
     {
         SceneManager.LoadScene(4);
     }
+
 }
