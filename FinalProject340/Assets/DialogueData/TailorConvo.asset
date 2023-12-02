@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82141a80c9be8b7439597b1c4bdcfa3d, type: 3}
+  m_Name: TailorConvo
+  m_EditorClassIdentifier: 
+  dialogue:
+  - 'Ms. Smith:
+
+    Hello, Victoria! I have your coat here.'
+  - (Recieved Men's Coat)
+  - 'Victoria: Thank you, Ms. Smith. '
+  - (Paid 20 Vinyans. You have money left over...)

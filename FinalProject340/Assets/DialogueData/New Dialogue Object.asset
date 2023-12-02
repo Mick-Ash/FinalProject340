@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82141a80c9be8b7439597b1c4bdcfa3d, type: 3}
+  m_Name: New Dialogue Object
+  m_EditorClassIdentifier: 
+  dialogue:
+  - 'James:
+
+    VIctoria, you''ve returned. Let me see the coat you bought.'
+  - You hand Father the coat.
+  - 'James:
+
+    Ah, a men''s coat. Your mother and I have noticed that you have
+    bought men''s clothes as of late.'
+  - You gather your determination before replying. You tell him that you prefer the
+    clothes of men.
+  - The reason why? You find that you would rather not be a man nor a woman, but
+    yourself.
+  - In fact, you tell him that you are not adverse to masculine titles.
+  - 'Your is silent as he considers your words. '

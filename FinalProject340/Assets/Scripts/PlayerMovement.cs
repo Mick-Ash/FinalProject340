@@ -6,8 +6,12 @@ public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 5f;
 
-    public Rigidbody2D rb;
+    [SerializeField] OutsideDialogueUI dialogueUI;
 
+    public Rigidbody2D rb;
+    public OutsideDialogueUI DialogueUI => dialogueUI;
+
+    public Interactable Interactable { get; set; }
     Vector2 movement;
 
    public Animator animator;
@@ -20,6 +24,14 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
+
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            if (Interactable != null)
+            {
+                Interactable.Interact(this);
+            }
+        }
     }
 
     void FixedUpdate()
