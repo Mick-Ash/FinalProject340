@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 82141a80c9be8b7439597b1c4bdcfa3d, type: 3}
-  m_Name: New Dialogue Object
+  m_Name: FinalConvo
   m_EditorClassIdentifier: 
   dialogue:
   - 'James:
@@ -26,4 +26,4 @@ MonoBehaviour:
   - The reason why? You find that you would rather not be a man nor a woman, but
     yourself.
   - In fact, you tell him that you are not adverse to masculine titles.
-  - 'Your is silent as he considers your words. '
+  - 'Your father is silent as he considers your words. '

@@ -132,6 +132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3
+  dialogueUI: {fileID: 2631310653203305680, guid: ce11d64acaf116a45bce3aeafdedfef8, type: 3}
   rb: {fileID: 6407030206719540843}
   animator: {fileID: -4860511836383743222}
 --- !u!61 &6904089810547484648
