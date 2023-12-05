@@ -6,10 +6,10 @@ public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 5f;
 
-    [SerializeField] OutsideDialogueUI dialogueUI;
+    [SerializeField] DialogueUI dialogueUI;
 
     public Rigidbody2D rb;
-    public OutsideDialogueUI DialogueUI => dialogueUI;
+    public DialogueUI DialogueUI => dialogueUI;
 
     public Interactable Interactable { get; set; }
     Vector2 movement;
@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        if (dialogueUI.IsOpen) return;
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
         animator.SetFloat("Horizontal", movement.x);

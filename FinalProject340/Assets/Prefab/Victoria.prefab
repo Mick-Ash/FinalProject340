@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 1440120499756152210}
   - component: {fileID: 6026133316446382561}
   - component: {fileID: 1018609944635507170}
+  - component: {fileID: -2478331102023256895}
   m_Layer: 0
   m_Name: Victoria
   m_TagString: Untagged
@@ -132,7 +133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3
-  dialogueUI: {fileID: 2631310653203305680, guid: ce11d64acaf116a45bce3aeafdedfef8, type: 3}
+  dialogueUI: {fileID: 262236983876379291, guid: 42d515030913e684a9a77790730fc5fd, type: 3}
   rb: {fileID: 6407030206719540843}
   animator: {fileID: -4860511836383743222}
 --- !u!61 &6904089810547484648
@@ -260,3 +261,16 @@ MonoBehaviour:
   craftSystem: {fileID: 0}
   HPMANACanvas: {fileID: 0}
   currentHealth: 60
+--- !u!114 &-2478331102023256895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716876681483048679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 249e0ea1916fff74c9ea70110f7cb250, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueObject: {fileID: 11400000, guid: 50d78703b0024a34b91cf4f456e2b54f, type: 2}

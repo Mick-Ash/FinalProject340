@@ -16,7 +16,8 @@ MonoBehaviour:
   - 'James:
 
     VIctoria, you''ve returned. Let me see the coat you bought.'
-  - You hand Father the coat.
+  - You hand Father the coat. Your clothes feel too tight, anxiety grips your chest
+    like a vise.
   - 'James:
 
     Ah, a men''s coat. Your mother and I have noticed that you have
@@ -27,3 +28,28 @@ MonoBehaviour:
     yourself.
   - In fact, you tell him that you are not adverse to masculine titles.
   - 'Your father is silent as he considers your words. '
+  - He finally speaks.
+  - 'James:
+
+    If that is what brings you happiness, my child, then I accept this.'
+  - Your confidence renewed, you tell Father about your desire to be an executioner.
+  - You have seen the punishments he enacts on the worst men.
+  - You have seen your eldest brother, Charles, practice methods of execution.
+  - You know that every death of a criminal brings justice. You want to do the same.
+  - You say all these things in a torrent of words.
+  - The words are only met with silence and the crackling of the fireplace.
+  - 'James:
+
+    Do you know what it will take to become Commoner''s Executioner?'
+  - You tell him that you do not, but are willing to try everything to gain the position.
+  - 'James:
+
+    We will see the Minister of Citizenry in the next fortnight. '
+  - 'James:
+
+    In the meantime, I will train you in what you need to know.'
+  - 'James:
+
+    Through this, you will know why we are both loved and feared, my
+    child.'
+  - Being loved and feared all at once sounded reasonable to you...
