@@ -9,6 +9,8 @@ public class HouseChangeScene : MonoBehaviour
     public GameObject player;
     public KeyCode changeSceneKey;
     bool collide;
+    // public GameObject houseDoor;
+    // need to specify that hasCoat needs to be true and need to collide with object tagged House Door to change to house scene
     
 
     private void OnTriggerEnter2D(Collider2D other)

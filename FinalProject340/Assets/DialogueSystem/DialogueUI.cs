@@ -7,20 +7,24 @@ public class DialogueUI : MonoBehaviour
 {
     [SerializeField] private GameObject dialogueBox;
     [SerializeField] private TMP_Text textLabel;
+    [SerializeField] private DialogueObject dialogueObject;
 
     public bool IsOpen { get; private set; }
     private TypeWriterEffect typeWriterEffect;
 
     private void Start()
     {
+
         typeWriterEffect = GetComponent<TypeWriterEffect>();
         CloseDialogueBox();
     }
 
     public void ShowDialogue(DialogueObject dialogueObject)
     {
+        
         IsOpen = true;
         dialogueBox.SetActive(true);
+
         StartCoroutine(StepThroughDialogue(dialogueObject));
     }
 

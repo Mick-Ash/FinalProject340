@@ -8,10 +8,12 @@ public class SceneChange : MonoBehaviour
     public GameObject player;
     public KeyCode changeSceneKey;
     bool collide;
+    //public GameObject storeDoor;
+    // need to make it known that you need to collide with object tagged Store Door to change scene
     
-
     private void OnTriggerEnter2D(Collider2D other)
      {
+        
         { 
             collide = true;
         }
